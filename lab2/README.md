@@ -1,4 +1,4 @@
-# Lab 1: Importing Compliance Audit Policies
+# Lab 2: Creating Custom Audit Policies
 
 >The main goal of this lab work is to develop a desktop application which
 will help us to parse and scan .audit policy files, which are provided by
