@@ -15,6 +15,14 @@ Gmail, Twitter etc.);
 - Output all data which was provided by the identity providers (e.g. user’s name, age,
 gender, email etc.).
 
+### Used Technologies:
+
+- Windows 10 
+- Python
+- Flask
+- Ngrok
+- PyCharm
+
 
 ### Instructions:
 **1. Install libraries from requirements.txt.**
