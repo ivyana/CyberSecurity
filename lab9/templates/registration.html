@@ -1,0 +1,36 @@
+<form action="{{ url_for('register') }}" method="POST">
+    {{ form.csrf_token }}
+    <div class="row">
+        <div class="col-6 form-group">
+            <label>First Name</label>
+            <input type="text" name="first_name" placeholder="First Name:" class="form-control">
+            {% for error in form.first_name.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div class="col-6 form-group">
+            <label>Last Name</label>
+            <input type="text" name="last_name" placeholder="Last Name:" class="form-control">
+            {% for error in form.last_name.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div class="col-12 form-group">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Your Email:" class="form-control">
+            {% for error in form.email.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div class="col-12 form-group">
+            <label>Password</label>
+            <input type="password" name="password" class="form-control">
+            {% for error in form.password.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+        <div class="col-12 form-group">
+            <button class="btn btn-primary">Register</button>
+        </div>
+    </div>
+</form>

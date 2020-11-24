@@ -1,0 +1,13 @@
+<form id="myForm" action="http://127.0.0.1:5000/register" method="POST">
+    <p>We need to check if it is really you. Enter your email and password, please.</p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="button" onclick="myFunction()" value="Submit form">
+</form>
+<script>
+function myFunction() {
+  document.getElementById("myForm").submit();
+}
+</script>
