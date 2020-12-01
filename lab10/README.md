@@ -1,4 +1,4 @@
-# Lab 9: CSRF Security
+# Lab 10: SSL Pinning
 
 >The main goal of this lab work is to create a mobile app that uses a 3’rd party platform for
 authentication. Following, is needed to implement SSL pinning to protect the application from
